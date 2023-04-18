@@ -32,7 +32,7 @@ const Exchanges = () => {
     <Container maxW={'container.xl'}>
       {loading ? <Loader/> : (
         <>
-          <HStack wrap={'wrap'}>
+          <HStack wrap={'wrap'} justifyContent={'space-evenly'}>
             {
               exchange.map(i=>(
                 <ExchangeCard 

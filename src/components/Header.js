@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Stack direction={['column' , 'row']} justifyContent={'space-between'}  padding={'4'} shadow={"base"} bgColor={'blackAlpha.900'} >
+    <Stack direction={['column' , 'row']} justifyContent={['space-evenly','space-between']}  padding={'4'} shadow={"base"} bgColor={'blackAlpha.900'} >
     <Heading color={'white'}><Link to="/">CoinPedia</Link></Heading>
     <HStack paddingRight={'8'} justifyContent={'space-around'}>
         <Button variant={'unstyled'} color={'white'}>
