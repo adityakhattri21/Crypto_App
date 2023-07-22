@@ -10,7 +10,7 @@ const Footer = () => {
         <Text fontSize={"sm"} letterSpacing={"widest"} textAlign={["center","left"]}>Get Crypto Data Under One Hood. Historical and Real-time data with visualization.</Text>
         </VStack>
         <VStack>
-            <Avatar boxSize={"28"} mt={["4","0"]} src={"https://media.licdn.com/dms/image/D4D03AQFB6hzG2DED_w/profile-displayphoto-shrink_800_800/0/1670928476608?e=1687392000&v=beta&t=RIg_7Yt_2WVib6UdLKSOa_tluOjjJDyju8bAyGLmUrM"}/>
+            <Avatar boxSize={"28"} mt={["4","0"]} src={"https://res.cloudinary.com/dy2tlnsx5/image/upload/v1686243023/avatar/qpwkb2jl4lusfoipuzgp.jpg"}/>
             <Text>Hi! Its Me.</Text>
         </VStack>
     </Stack>
